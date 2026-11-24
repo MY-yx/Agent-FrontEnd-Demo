@@ -1,0 +1,31 @@
+{
+  "name": "mini-shop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "dependencies": {
+    "vue": "^3.5.46"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/test-utils": "^2.6.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.6",
+    "vitest": "^3.2.7",
+    "vue-tsc": "^2.2.12"
+  },
+  "overrides": {
+    "nopt": "8.1.0"
+  }
+}
